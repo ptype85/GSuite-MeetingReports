@@ -36,7 +36,7 @@ function getCalendarEvents($uN){
     $title = $event.Summary
     $attList = $event.Organizer.Email
     $attLength = $attList.length
-    "Calndar = $calendar, Start Time = $startDateTime, End Time = $endDateTime, Title = $title, Attendees = $attList" | Out-File C:\Test\mettings.txt -Append
+    "Calndar = $calendar, Start Time = $startDateTime, End Time = $endDateTime, Title = $title, Attendees = $attList" | Out-File C:\Test\meetings.txt -Append
     }
 }
 
